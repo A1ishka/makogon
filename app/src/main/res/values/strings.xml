@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movie App</string>
+<!--    <string name="popular_films">Popular films</string>-->
+<!--    <string name="favorite_films">Favorite films</string>-->
+<!--    <string name="popular">Popular</string>-->
+<!--    <string name="favorite">Favorite</string>-->
+<!--    <string name="duration">"Duration: "</string>-->
+<!--    <string name="genres">"Genres: "</string>-->
+<!--    <string name="year">"Year: "</string>-->
+<!--    <string name="counties">"Counties: "</string>-->
+<!--    <string name="you_haven_t_saved_anything_yet">You have not saved anything yet</string>-->
+<!--    <string name="explore">Explore</string>-->
+<!--    <string name="a_data_error_occured_please_check_your_network_connection">A data error occured, please check your network connection.</string>-->
+<!--    <string name="try_again">Try again</string>-->
+
+    <string name="popular_films">Популярное</string>
+    <string name="favorite_films">Избранное</string>
+    <string name="popular">Популярное</string>
+    <string name="favorite">Избранное</string>
+    <string name="duration">"Продолжительность: "</string>
+    <string name="genres">"Жанры: "</string>
+    <string name="year">"Год выпуска: "</string>
+    <string name="counties">"Страны: "</string>
+    <string name="you_haven_t_saved_anything_yet">Вы еще ничего не сохранили</string>
+    <string name="explore">Начать</string>
+    <string name="a_data_error_occured_please_check_your_network_connection">Произошла ошибка при загрузке данных, проверьте подключение к сети</string>
+    <string name="try_again">Повторить</string>
+</resources>
