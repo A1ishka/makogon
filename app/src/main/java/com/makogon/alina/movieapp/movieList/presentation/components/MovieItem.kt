@@ -1,4 +1,4 @@
-package com.makogon.alina.movieapp.presentation.components
+package com.makogon.alina.movieapp.movieList.presentation.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -28,8 +28,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.makogon.alina.movieapp.R
 import com.makogon.alina.movieapp.movieList.domain.model.Movie
-import com.makogon.alina.movieapp.util.NetworkImage
-import com.makogon.alina.movieapp.util.Screen
+import com.makogon.alina.movieapp.movieList.util.NetworkImage
+import com.makogon.alina.movieapp.movieList.util.Screen
 
 @Composable
 fun MovieItem(

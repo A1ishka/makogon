@@ -1,4 +1,4 @@
-package com.makogon.alina.movieapp.util
+package com.makogon.alina.movieapp.movieList.util
 
 object Category {
     const val POPULAR = "popular"

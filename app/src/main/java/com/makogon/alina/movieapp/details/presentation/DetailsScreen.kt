@@ -30,7 +30,7 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
 import com.makogon.alina.movieapp.R
-import com.makogon.alina.movieapp.util.NetworkImage
+import com.makogon.alina.movieapp.movieList.util.NetworkImage
 
 @Composable
 fun DetailsScreen(

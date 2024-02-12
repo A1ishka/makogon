@@ -35,11 +35,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.makogon.alina.movieapp.R
-import com.makogon.alina.movieapp.presentation.FavoriteMovieScreen
-import com.makogon.alina.movieapp.presentation.MovieListEvent
-import com.makogon.alina.movieapp.presentation.MovieListViewModel
-import com.makogon.alina.movieapp.presentation.PopularMovieScreen
-import com.makogon.alina.movieapp.util.Screen
+import com.makogon.alina.movieapp.movieList.presentation.FavoriteMovieScreen
+import com.makogon.alina.movieapp.movieList.presentation.MovieListEvent
+import com.makogon.alina.movieapp.movieList.presentation.MovieListViewModel
+import com.makogon.alina.movieapp.movieList.presentation.PopularMovieScreen
+import com.makogon.alina.movieapp.movieList.util.Screen
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.makogon.alina.movieapp.presentation
+package com.makogon.alina.movieapp.movieList.presentation
 
 import com.makogon.alina.movieapp.movieList.domain.model.Movie
 

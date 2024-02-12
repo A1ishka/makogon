@@ -4,8 +4,8 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.makogon.alina.movieapp.movieList.domain.repository.MovieListRepository
-import com.makogon.alina.movieapp.util.Category
-import com.makogon.alina.movieapp.util.Resource
+import com.makogon.alina.movieapp.movieList.util.Category
+import com.makogon.alina.movieapp.movieList.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

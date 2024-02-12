@@ -23,9 +23,9 @@ import androidx.navigation.navArgument
 import coil.compose.rememberAsyncImagePainter
 import com.makogon.alina.movieapp.core.presentation.HomeScreen
 import com.makogon.alina.movieapp.details.presentation.DetailsScreen
-import com.makogon.alina.movieapp.presentation.PopularMovieScreen
+import com.makogon.alina.movieapp.movieList.presentation.PopularMovieScreen
 import com.makogon.alina.movieapp.ui.theme.MovieAppTheme
-import com.makogon.alina.movieapp.util.Screen
+import com.makogon.alina.movieapp.movieList.util.Screen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

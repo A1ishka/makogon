@@ -1,4 +1,4 @@
-package com.makogon.alina.movieapp.presentation
+package com.makogon.alina.movieapp.movieList.presentation
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -44,8 +44,8 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.makogon.alina.movieapp.R
-import com.makogon.alina.movieapp.presentation.components.MovieItem
-import com.makogon.alina.movieapp.util.Category
+import com.makogon.alina.movieapp.movieList.presentation.components.MovieItem
+import com.makogon.alina.movieapp.movieList.util.Category
 
 @Composable
 fun PopularMovieScreen(

@@ -7,8 +7,8 @@ import com.makogon.alina.movieapp.movieList.data.mappers.toMovieEntity
 import com.makogon.alina.movieapp.movieList.data.remote.MovieApi
 import com.makogon.alina.movieapp.movieList.domain.model.Movie
 import com.makogon.alina.movieapp.movieList.domain.repository.MovieListRepository
-import com.makogon.alina.movieapp.util.Category
-import com.makogon.alina.movieapp.util.Resource
+import com.makogon.alina.movieapp.movieList.util.Category
+import com.makogon.alina.movieapp.movieList.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import java.io.IOException
@@ -28,7 +28,8 @@ class MovieListRepositoryImpl @Inject constructor(
                 localMovieList = movieDB.movieDao.getMovieList()
                 val shouldLoadLocalMovie = localMovieList.isNotEmpty() && !forceFetchFromRemote
                 if (shouldLoadLocalMovie) {
-                    emit(Resource.Success(
+                    emit(
+                        Resource.Success(
                         data = localMovieList.map { movieEntity ->
                             movieEntity.toMovie()
                         }
@@ -54,12 +55,14 @@ class MovieListRepositoryImpl @Inject constructor(
                     }
                 }
                 movieDB.movieDao.upsertMovieList(movieEntities)
-                emit(Resource.Success(
+                emit(
+                    Resource.Success(
                     movieEntities.map { it.toMovie() }
                 ))
             } else {
                 localMovieList = movieDB.movieDao.getFavoriteMovieList()
-                emit(Resource.Success(
+                emit(
+                    Resource.Success(
                     data = localMovieList.map { movieEntity ->
                         movieEntity.toMovie()
                     }
@@ -96,7 +99,8 @@ class MovieListRepositoryImpl @Inject constructor(
             }
             movieDB.movieDao.upsertMovieList(movieEntities)
             var localMovieList = movieDB.movieDao.getFavoriteMovieList()
-            emit(Resource.Success(
+            emit(
+                Resource.Success(
                 data = localMovieList.map { movieEntity ->
                     movieEntity.toMovie()
                 }

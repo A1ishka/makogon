@@ -1,7 +1,7 @@
 package com.makogon.alina.movieapp.movieList.domain.repository
 
 import com.makogon.alina.movieapp.movieList.domain.model.Movie
-import com.makogon.alina.movieapp.util.Resource
+import com.makogon.alina.movieapp.movieList.util.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface MovieListRepository {
